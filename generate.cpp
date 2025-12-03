@@ -1,9 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
+#include <deque> //Permite usar a estrutura deque (double-ended queue) 
+#include <algorithm> //find() random_shuffle()
 #include <cstdlib>
 #include <ctime>
-#include <iomanip>
+#include <iomanip> //Permite manipular formatação de saída setw()
 
 using namespace std;
 
@@ -62,3 +63,4 @@ int main() {
     gerarCartoes();
     return 0;
 }
+
