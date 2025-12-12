@@ -105,7 +105,7 @@ void gerarCartoes(int n) {
         cartao.escreverNoFicheiro(ficheiro, i);  // Escrever
         ficheiro.close();  // Fechar (importante!)
 
-        cout << "✓ Gerado: " << nomeFicheiro << "\n";
+        cout << " Gerado: " << nomeFicheiro << "\n";
     }
 
     cout << "\nTodos os " << n << " cartoes foram gerados!\n";
@@ -128,3 +128,4 @@ int main(int argc, char* argv[]) {
 
     return 0;  // Sucesso
 }
+
